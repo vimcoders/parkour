@@ -1,0 +1,15 @@
+info:
+  servicename: "xf-role"
+  address: "10.0.16.223:9999"
+
+nacosconfig:
+  host:
+    - "192.168.11.118:8848"
+
+rocketmq:
+  host:
+    - "http://192.168.11.118:9876"
+  access_key: ""
+  secret_key: ""
+  producer_group: "xf-role-producer-group"
+  producer_topic: "xf-role-change"
